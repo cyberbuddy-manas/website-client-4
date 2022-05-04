@@ -1,0 +1,84 @@
+body {
+	width: auto;
+	height: 100vh;
+	background-color: #DBEFF6;
+}
+
+/*============ Header Properties ==============*/
+
+header {
+	width: auto;
+	height: 85vh;
+	background-image: url("../images/hero.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0% 90%;
+}
+
+header h1 {
+	font-family: "Ovo", sans-serif;
+	font-size: 70px;
+	line-height: 112px;
+	color: #27688B;
+	text-align: center;
+	margin-top: 70px;
+}
+
+header h2 {
+	font-family: "Ovo", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #27688B;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header button {
+	margin: auto;
+	margin-top: 40px;
+	width: 303px;
+	height: 56px;
+	background: #F3F3F3;
+	mix-blend-mode: normal;
+	border: 3px solid #DE3C31;
+	box-sizing: border-box;
+	border-radius: 12px;
+
+	font-size: 38px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	color: #DE3C31;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+header button:hover {
+	background: #DE3C31;
+	color: white;
+}
+
+@media screen and (max-width: 720px) {
+	header {
+		background-position: 82% 70%;
+		background-size: cover;
+	}
+
+	header h1 {
+		font-size: 10vw;
+	}
+
+	header h2 {
+		font-size: 4vw;
+	}
+}
